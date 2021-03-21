@@ -63,8 +63,8 @@ drawLine:
 
 	 	@ if D > 0
 	 	ADDGT r9, r9, #1 @ y = y + 1
-	 	SUBGT r8, r8, r6, LSL#1 @ D = D - 2 * dx
-	
+	 	SUBGT r8, r8, r6, LSL#1 @ D = D - 2 * dx @
+		
 	 	@ D = D + 2 * dy
  		ADD r8, r8, r7, LSL#1 
 	 	
